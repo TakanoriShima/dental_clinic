@@ -8,6 +8,50 @@ div#wrapper {
     width: 920px;
     margin: 0 auto;
 }
+header {
+    height: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div#menu {
+    height: 70px;
+}
+main {
+    height: 696px;
+}
+footer {
+    height: 130px;
+}
+main {
+    height: 696px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav {
+    height: 100%;
+    width: 30%;
+}
+article {
+    height: 100%;
+    width: 70%;
+}
+.nav {
+    height: 30%;
+    width: 100%;
+    border: solid 2px #6CC6C4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+section#image {
+    height: 280px;
+    padding-left: 20px;
+}
+section#content {
+    height: 450px;
+}
+#image img {
+    width: 100%;
+}
 
 /*media query*/
 /*ref)*/
